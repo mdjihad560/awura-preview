@@ -1,0 +1,202 @@
+@media (min-width: 1400px){
+.container, 
+.container-lg, 
+.container-md, 
+.container-sm, 
+.container-xl, 
+.container-xxl{
+    max-width: 1296px;
+}
+
+}
+@media (max-width: 1399px) {
+
+   h1, 
+    .h1{
+        font-size: 80px;
+   }
+   .demo-marquee-item {
+        width: 450px;
+    }
+    
+    .elementor-editor1{
+        max-width: 230px;
+    }
+    .elementor-editor3{
+        max-width: 200px;
+    }
+    img.woocommerce-card {
+        right: -45px;
+    }
+    .awura-woocommerce-thumb-block{
+        margin-left: 0;
+    }
+    .awura-step-content h4{
+        font-size: 26px;
+    }
+    .info-line {
+        right: -30px;
+    }
+}
+
+@media (max-width: 1199px) {
+    h1, 
+    .h1{
+        font-size: 60px;
+   }
+  .demo-marquee-item {
+        width: 400px;
+    }
+    .awura-step-item {
+        gap: 15px;
+    }
+    .awura-step-number {
+        width: 55px;
+        height: 55px;
+        font-size: 30px;
+    }
+    .awura-step-content h4 {
+        font-size: 24px;
+    }
+    .awura-contact-info-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .info-line{
+        display: none;
+    }
+   
+}
+
+@media (max-width: 991px) {
+    h2, 
+    .h2{
+        font-size: 48px;
+    }
+    .section-paddding-tb{
+        padding: 100px 0;
+    }
+    .section-paddding-t{
+        padding: 100px 0 0;
+    }
+    .awura-section-title{
+        padding-bottom: 60px;
+    }
+    .menu-bar {
+        display: block;
+    }
+    .offcanves-menu{
+        display: block;
+    }
+    .awura-menu{
+        display: none;
+    }
+     .mobile-none{
+        display: none;
+    }
+    .awura-hero-section {
+        padding: 180px 0 0;
+
+    }
+    h1, 
+    .h1{
+        font-size: 48px;
+    }
+    .awura-hero-content p {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .demo-marquee-item, 
+    .inner-marquee-item {
+        width: 350px;
+    }
+    
+    .elementor-editor1, 
+    .elementor-editor2, 
+    .elementor-editor3, 
+    .elementor-editor4{
+        display: none;
+    }
+    .awura-tag-list-block{
+        margin-bottom: 60px;
+    }
+    .awura-feature2-header {
+        padding: 24px;
+    }
+    .awura-feature2-header.two {
+        padding: 10px 24px 24px;
+    }
+    .awura-woocommerce-column {
+        grid-template-columns: 1fr;
+    }
+    .arrow-double{
+        display: none;
+    }
+    .contact-info-data h4{
+        font-size: 28px;
+    }
+    
+}
+
+@media (max-width: 767px) {
+    .section-paddding-tb{
+        padding: 80px 0;
+    }
+    .section-paddding-t{
+        padding: 80px 0 0;
+    }
+    .awura-section-title{
+        padding-bottom: 40px;
+    }
+    .awura-hero-section {
+        padding: 160px 0 0;
+    }
+    .awura-hero-content {
+        padding-bottom: 60px;
+    }
+   h1, 
+    .h1{
+        font-size: 40px;
+    }
+  .demo-marquee-item, 
+  .inner-marquee-item {
+        width: 300px;
+    }
+    .awura-feature-block{
+        margin: 24px 0;
+    }
+
+    h2, 
+    .h2{
+        font-size: 38px;
+    }
+    .footer-button{
+        margin-top: 20px;
+    }
+    .awura-tag-list-block{
+        margin-bottom: 40px;
+    }
+    .awura-feature2-header h3 {
+        font-size: 36px;
+    }
+    .awura-mt-50 {
+        margin-top: 30px;
+    }
+    .woocommerce-logo {
+        display: none;
+    }
+    .woocommerce-card{
+        display: none;
+    }
+    .awura-testimonial-grid {
+        grid-template-columns: 1fr;
+    }
+    .contact-info-data h4{
+        font-size: 24px;
+    }
+
+    .awura-contact-info-grid {
+        grid-template-columns: 1fr;
+    }
+}
