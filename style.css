@@ -171,7 +171,14 @@ HERO SECTION
     background-size: cover;
     background-position: top center;
 }
-
+video.hero-vid__media {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
 .awura-hero-content {
     text-align: center;
     position: relative;
